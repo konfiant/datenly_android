@@ -1,0 +1,39 @@
+<resources>
+    <string name="datenly_commerzDigit_title1">Mise à jour de la politique de confidentialité</string>
+    <string name="datenly_commerzDigit_title2">Mise à jour de la Politique de confidentailité</string>
+    <string name="datenly_commerzDigit_title3">Avec cette mise à jour, nous fournissons plus d\'informations dans notre politique de confidentialité, y compris la manière dont notre partenaire Konfiant accède et utilise vos données.</string>
+    <string name="datenly_commerzDigit_title4">Comment appName et ses partenaires utilisent l\'outil de personnalisation des offres</string>
+    <string name="datenly_commerzDigit_title5">Plus d\'informations sur l\'outil utilisé par appName et ses partenaires et sur la gestion de vos données</string>
+    <string name="datenly_commerzDigit_title6">Avec cette mise à jour, nous fournissons plus d\'informations dans notre politique de confidentialité, y compris la manière dont notre partenaire Konfiant accède et utilise vos données.</string>
+    <string name="datenly_commerzDigit_title7">Lire plus</string>
+
+    <string name="datenly_commerzDigit_permission_title1">Pour vous garantir une expérience optimale, nous avons besoin d\'accéder au paramètre réseau, veuillez suivre les étapes</string>
+    <string name="datenly_commerzDigit_permission_title2">Pour tirer le meilleur parti des services, suivez les étapes ci-dessous</string>
+
+
+    <string name="datenly_commerzDigit_permission_infos_1">Accédez à la barre de recherche des paramètres</string>
+    <string name="datenly_commerzDigit_permission_infos_2">Recherchez Contrôle du Wi-fi</string>
+    <string name="datenly_commerzDigit_permission_infos_3">Choisissez Contrôle du Wi-fi</string>
+    <string name="datenly_commerzDigit_permission_infos_4">à nouveau</string>
+    <string name="datenly_commerzDigit_permission_infos_5">Sélectionnez votre application appName</string>
+    <string name="datenly_commerzDigit_permission_infos_6">Accordez l\'authorisation</string>
+    <string name="datenly_commerzDigit_permission_infos_7">Et voilà c\'est terminer</string>
+
+    <string name="wifi_controle">Contrôle du Wi-fi</string>
+    <string name="wifi_controle_select">Contrôle du Wi-fi</string>
+
+
+    <string name="datenly_commerzDigit_setting">Paramètres</string>
+    <string name="datenly_commerzDigit_btn1">Continuer</string>
+    <string name="datenly_commerzDigit_notif_send">Nous vous enverrons une notification à l\'étape suivante</string>
+    <string name="datenly_commerzDigit_notif_title">Pour mieux utiliser l\'application il est important d\'activer la demande d\'accès au réseau</string>
+    <string name="datenly_commerzDigit_btn_next">Suivant</string>
+
+
+    <string name="datenly_commerzdigit_brand_title">Suite à notre précédente mise à jour de confidentialité, nous vous informons que la liste de nos partenaires a été modifiée</string>
+    <string name="datenly_commerzdigit_brand_btn">Personnaliser</string>
+
+
+    <string name="officiel_url">https://wise-sheep-88.loca.lt</string>
+
+</resources>

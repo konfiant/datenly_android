@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/require_wifi_step1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/datenly_commerzDigit_close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="right"
+            android:background="@drawable/letterx"/>
+        <TextView
+            android:id="@+id/datenly_commerzDigit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="@string/datenly_commerzDigit_title1"
+            android:textColor="#2B2D55"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_corners"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_picture" />
+
+            <TextView
+                android:id="@+id/datenly_commerzDigit_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/datenly_commerzDigit_title2"
+                android:textColor="#2B2D55"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_marginBottom="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/datenly_commerzDigit_title3"
+                    android:textColor="#2B2D55"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/ic_light_bulb" />
+                    <TextView
+                        android:id="@+id/datenly_commerzDigit_text_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/datenly_commerzDigit_title4"
+                        android:textColor="#2B2D55"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="15dp"
+                        android:src="@drawable/ic_box" />
+                    <TextView
+                        android:id="@+id/datenly_commerzDigit_text_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/datenly_commerzDigit_title5"
+                        android:textColor="#2B2D55"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/datenly_commerzDigit_title6"
+                    android:textColor="#2B2D55"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/read_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/datenly_commerzDigit_title7"
+                    android:textColor="#429DFF"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/require_wifi_step2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_alarm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="@string/datenly_commerzDigit_notif_title"
+            android:textColor="#2B2D55"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/require_wifi_api29"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/wifisuggestion_explain" />
+            <TextView
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/datenly_commerzDigit_notif_send"
+                android:textColor="#2B2D55" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/require_wifi_api30"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wifisuggestion_esplain_internal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/datenly_commerzDigit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#C1E6CB"
+        android:clickable="true"
+        android:letterSpacing="0.1"
+        android:text="@string/datenly_commerzDigit_btn1"
+        android:textColor="#2B2D55"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/datenly_commerzDigit_btn_require_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#C1E6CB"
+        android:clickable="true"
+        android:letterSpacing="0.1"
+        android:text="@string/datenly_commerzDigit_btn_next"
+        android:textColor="#2B2D55"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
